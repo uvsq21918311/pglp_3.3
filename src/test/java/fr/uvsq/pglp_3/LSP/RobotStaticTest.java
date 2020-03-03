@@ -7,9 +7,6 @@ import org.junit.Test;
  */
 public class RobotStaticTest {
 	@Test
-	/**
-	 * test du constructeur
-	 */
 	public void test() {
 		@SuppressWarnings("unused")
 		RobotStatic rs = new RobotStatic(0,0);

@@ -1,13 +1,8 @@
 package fr.uvsq.pglp_3.LSP;
 
-/**
- * un type de robot qui se déplace de 1 dans sa direction.
- */
+
 public class RobotType1 extends Robot {
-	@Override
-	/**
-	 * fait avancer le robot selon sa direction.
-	 */
+
 	public void avance() {
 		switch (direction) {
 		case Nord :
